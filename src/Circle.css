@@ -1,0 +1,24 @@
+.sidebarCircle {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  cursor: pointer;
+  color: #818181;
+}
+
+/* .sidebarCircle:hover,
+.sidebarCircle:hover > p,
+.sidebarCircle:> h3 {
+  background-color: rgb(233, 235, 243);
+  color: rgb(103, 103, 185);
+  font-weight: 500 !important;
+} */
+.sidebarCircle > h3 {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
